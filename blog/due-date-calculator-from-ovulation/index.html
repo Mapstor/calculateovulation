@@ -1,0 +1,1844 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Due Date Calculator Based on Ovulation Date | Ovulation Calculator</title>
+  <meta name="description" content="Calculate your estimated due date from your ovulation date for more accurate pregnancy timing. Learn why ovulation-based calculations are more precise than LMP methods.">
+  <meta name="keywords" content="due date from ovulation, due date calculator, pregnancy due date, ovulation due date, conception date calculator, estimated delivery date, DPO pregnancy test, twin due date">
+  <link rel="canonical" href="https://calculateovulation.org/blog/due-date-calculator-from-ovulation/">
+
+  <meta property="og:title" content="Due Date Calculator Based on Ovulation Date">
+  <meta property="og:description" content="Calculate your estimated due date using your ovulation date for more accuracy.">
+  <meta property="og:url" content="https://calculateovulation.org/blog/due-date-calculator-from-ovulation/">
+  <meta property="og:type" content="article">
+  <meta property="og:image" content="https://calculateovulation.org/assets/images/og-image.png">
+
+  <link rel="icon" type="image/svg+xml" href="/assets/images/favicon/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon/apple-touch-icon.png">
+  <link rel="shortcut icon" href="/assets/images/favicon/favicon.ico">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Article",
+        "headline": "Due Date Calculator Based on Ovulation Date",
+        "description": "Calculate your estimated due date from your ovulation date for more accurate pregnancy timing.",
+        "author": {
+          "@type": "Organization",
+          "name": "Ovulation Calculator"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Ovulation Calculator",
+          "url": "https://calculateovulation.org"
+        },
+        "datePublished": "2026-01-27",
+        "dateModified": "2026-02-02"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://calculateovulation.org"},
+          {"@type": "ListItem", "position": 2, "name": "Articles", "item": "https://calculateovulation.org/blog/"},
+          {"@type": "ListItem", "position": 3, "name": "Due Date Calculator Based on Ovulation Date"}
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Is my due date from ovulation more accurate than from my last period?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Generally, yes. If you tracked ovulation accurately (using OPKs, BBT, or a fertility monitor), dating from ovulation eliminates the variability of the follicular phase. This is especially true if your cycles are longer or shorter than 28 days. However, first-trimester ultrasound dating is also very accurate and may be used to confirm or adjust your due date."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why does my doctor use my last period instead of ovulation date?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Most women don't track ovulation, so LMP is the most universally available starting point. Medical conventions and pregnancy wheel calculators are designed around LMP dating. However, if you share your ovulation tracking data, your provider can use it to inform the due date estimate. First-trimester ultrasound often reconciles any differences."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What if my ovulation date and ultrasound give different due dates?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Small differences (a few days) are normal and usually not concerning. First-trimester ultrasounds are accurate to within about 5-7 days. If the difference is larger, consider whether your ovulation tracking was definitive (a positive OPK is more reliable than cervical mucus observations). Your provider will recommend which date to use based on all available information."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I still calculate a due date if I'm not sure of my exact ovulation date?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Even if you don't know your exact ovulation date, you can estimate it from your cycle length (ovulation typically occurs 14 days before your next period would start). Our ovulation calculator does this calculation automatically. However, for the most accurate dating, a first-trimester ultrasound is recommended."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does the due date change as pregnancy progresses?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Once a due date is established (usually by first-trimester ultrasound or early pregnancy), it typically shouldn't change. Later ultrasounds may show the baby measuring larger or smaller than expected, but this reflects normal variation in fetal growth rather than a different conception date. Changing the due date late in pregnancy can lead to inappropriate interventions."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How accurate is a due date calculated from ovulation?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A due date calculated from a confirmed ovulation date is among the most accurate methods available, typically within 1-3 days of a first-trimester ultrasound estimate. A 2013 study in Human Reproduction found that the average time from ovulation to birth is 268 days (38 weeks and 2 days), with a standard deviation of about 8-9 days. Only about 4-5% of babies are born on their exact due date, but roughly 70% arrive within 10 days of it."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What if my due date from ovulation differs from my ultrasound date?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "If the difference is 5 days or less, the dates are considered concordant, and either can be used. If the ultrasound date differs by more than 7 days in the first trimester, providers typically defer to the ultrasound. However, if you have highly reliable ovulation data (such as a confirmed positive OPK and BBT shift), discuss this with your provider. In many cases, ovulation-based and ultrasound dates will agree closely."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I calculate my due date if I don't know my ovulation date?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Absolutely. Most women calculate their due date using the LMP method (adding 280 days to the first day of their last period). If you know your average cycle length, you can get a better estimate by adjusting for your likely ovulation day. For example, with a 32-day cycle, ovulation likely occurred around cycle day 18, not day 14. Our ovulation calculator can help you estimate this. A first-trimester ultrasound remains the gold standard for confirming dates."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why do doctors add 2 weeks to the pregnancy age?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Gestational age is counted from the first day of your last menstrual period (LMP), which is approximately 2 weeks before ovulation and conception actually occur. This means that during 'week 1' and 'week 2' of pregnancy, you aren't actually pregnant yet. This convention exists because the LMP is a known, easily remembered date for most women, while the exact conception date is usually unknown. So when your doctor says you are '6 weeks pregnant,' the embryo is actually about 4 weeks old."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "When should I schedule my first prenatal appointment?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Most healthcare providers recommend scheduling your first prenatal appointment between 8 and 10 weeks of gestational age (6-8 weeks after ovulation). At this visit, your provider will confirm the pregnancy, estimate gestational age, check for a heartbeat via ultrasound, review your medical history, and begin routine blood work. If you have a high-risk pregnancy, a history of complications, or concerning symptoms like heavy bleeding or severe pain, contact your provider sooner."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What happens if I go past my due date?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Going past your due date is common -- about 50% of first-time mothers deliver after their estimated due date. Pregnancies beyond 41 weeks are late-term, and beyond 42 weeks are post-term. After 41 weeks, providers typically increase monitoring. Most recommend induction between 41 and 42 weeks. Having an accurate due date based on ovulation tracking or early ultrasound is critical for these decisions."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do twin or multiple pregnancies affect the due date calculation?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "While the initial due date calculation is the same for twins, twin pregnancies typically deliver earlier. The average delivery for twins is around 36-37 weeks. Many providers set a target delivery window of 37-38 weeks for dichorionic twins and 36-37 weeks for monochorionic twins. Your provider will discuss the specific timeline based on your type of twin pregnancy."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can my due date be adjusted in the third trimester?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "ACOG strongly recommends against changing a well-established due date in the third trimester. Ultrasound measurements in late pregnancy have a margin of error of up to 3 weeks and reflect individual variation in fetal growth. Changing the due date late in pregnancy can lead to inappropriate decisions about induction or delivery timing. If your original due date was based on ovulation tracking or a first-trimester ultrasound, it should remain your official date."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header-inner">
+        <a href="/" class="logo">
+          <svg class="logo-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="10"/>
+            <path d="M12 8c-2.2 0-4 1.8-4 4s1.8 4 4 4 4-1.8 4-4"/>
+            <circle cx="12" cy="12" r="2" fill="currentColor"/>
+          </svg>
+          <span>Ovulation Calculator</span>
+        </a>
+        <nav class="nav-desktop">
+          <a href="/">Calculator</a>
+          <a href="/blog/" class="active">Articles</a>
+          <a href="/about/">About</a>
+          <a href="/contact/">Contact</a>
+        </nav>
+        <button class="nav-toggle" aria-label="Toggle menu">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="container content-narrow">
+      <nav class="breadcrumb-nav" aria-label="Breadcrumb">
+        <a href="/">Home</a>
+        <span class="breadcrumb-separator">&rsaquo;</span>
+        <a href="/blog/">Articles</a>
+        <span class="breadcrumb-separator">&rsaquo;</span>
+        <span class="breadcrumb-current">Due Date Calculator from Ovulation</span>
+      </nav>
+
+      <article>
+        <header class="article-header">
+          <h1>Due Date Calculator Based on Ovulation Date</h1>
+          <div class="article-meta">
+            <span>Updated: February 2026</span>
+            <span>18 min read</span>
+          </div>
+        </header>
+
+        <p>Congratulations on your pregnancy! If you tracked your ovulation, you have valuable information that can help estimate your due date more accurately than traditional methods. While most due date calculators use the first day of your last menstrual period (LMP), knowing your actual ovulation date can give you a more precise estimate of when your baby will arrive.</p>
+
+        <p>In this comprehensive guide, we will explain how to calculate your due date from your ovulation date, why this method can be more accurate, and what other factors affect when your baby actually arrives. We will also cover how due dates are calculated, adjusted, and what to expect as your pregnancy progresses -- including special considerations for <a href="/blog/fertile-window-when-to-conceive/">twins and multiple pregnancies</a>, and how pregnancy test accuracy changes by days past ovulation (DPO).</p>
+
+        <!-- Data Callout Row -->
+        <div class="data-callout-row">
+          <div class="data-callout coral">
+            <div class="callout-number">266</div>
+            <div class="callout-label">Days from ovulation to due date</div>
+            <div class="callout-source">38 weeks gestation</div>
+          </div>
+          <div class="data-callout blue">
+            <div class="callout-number">280</div>
+            <div class="callout-label">Days from LMP to due date</div>
+            <div class="callout-source">40 weeks gestational age</div>
+          </div>
+          <div class="data-callout purple">
+            <div class="callout-number">5%</div>
+            <div class="callout-label">Babies born on their exact due date</div>
+            <div class="callout-source">ACOG Committee Opinion No. 700</div>
+          </div>
+        </div>
+
+        <div class="tips-box">
+          <h3>Quick Calculation</h3>
+          <p>To calculate your due date from ovulation: <strong>Add 266 days (38 weeks)</strong> to your ovulation date.</p>
+          <p>Example: If you ovulated on March 15, your estimated due date would be December 6 (266 days later).</p>
+          <p>Use our <a href="/">ovulation calculator</a> to find your ovulation date and estimated due date.</p>
+        </div>
+
+        <!-- Table of Contents -->
+        <div class="toc">
+          <h2>Table of Contents</h2>
+          <ol>
+            <li><a href="#how-due-dates-calculated">How Due Dates Are Calculated</a></li>
+            <li><a href="#ovulation-vs-lmp">Ovulation Date vs. LMP Method</a></li>
+            <li><a href="#calculating-from-ovulation">Calculating Your Due Date from Ovulation</a></li>
+            <li><a href="#why-ovulation-more-accurate">Why Ovulation-Based Due Dates Are More Accurate</a></li>
+            <li><a href="#ultrasound-dating">Ultrasound Dating and Adjustments</a></li>
+            <li><a href="#pregnancy-timeline">Understanding Your Pregnancy Timeline</a></li>
+            <li><a href="#twin-due-dates">Twin and Multiple Pregnancy Due Dates</a></li>
+            <li><a href="#pregnancy-test-by-dpo">Pregnancy Test Accuracy by Days Past Ovulation (DPO)</a></li>
+            <li><a href="#when-babies-arrive">When Do Babies Actually Arrive?</a></li>
+            <li><a href="#ovulation-vs-lmp-accuracy">Ovulation-Based vs. LMP-Based Due Dates: Which Is More Accurate?</a></li>
+            <li><a href="#week-by-week-reference">Week-by-Week Pregnancy Reference</a></li>
+            <li><a href="#early-pregnancy-signs">Early Pregnancy Signs by Week</a></li>
+            <li><a href="#faq">Frequently Asked Questions</a></li>
+          </ol>
+        </div>
+
+        <!-- Section 1 -->
+        <section id="how-due-dates-calculated" class="content-section">
+          <h2>How Due Dates Are Calculated</h2>
+
+          <p>The concept of a "due date" is based on the average length of human pregnancy, which is approximately 280 days (40 weeks) from the first day of the last menstrual period, or 266 days (38 weeks) from conception/ovulation. This is important to understand because different calculation methods measure from different starting points.</p>
+
+          <h3>The Standard LMP Method</h3>
+          <p>The most common method for calculating due dates is <strong>Naegele's Rule</strong>, developed in the early 1800s. According to the <a href="https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2017/05/methods-for-estimating-the-due-date" target="_blank" rel="noopener noreferrer" class="external-link">American College of Obstetricians and Gynecologists (ACOG)</a>, this rule calculates the due date by:</p>
+          <ol>
+            <li>Taking the first day of your last menstrual period (LMP)</li>
+            <li>Adding one year</li>
+            <li>Subtracting three months</li>
+            <li>Adding seven days</li>
+          </ol>
+          <p>This is equivalent to adding 280 days (40 weeks) to the LMP date. The formula assumes a 28-day cycle with ovulation on day 14. For a deeper dive into the various approaches, see our guide on <a href="/blog/due-date-calculation-methods/">due date calculation methods</a>.</p>
+
+          <h3>The Ovulation/Conception Method</h3>
+          <p>When you know your ovulation date, you can use a more direct calculation:</p>
+          <ul>
+            <li>Add 266 days (38 weeks) to your ovulation date</li>
+            <li>This gives you the estimated due date</li>
+          </ul>
+          <p>The difference between 280 days (LMP method) and 266 days (ovulation method) is the assumed 14 days between menstruation and ovulation in a standard 28-day cycle. Understanding <a href="/blog/menstrual-cycle-and-ovulation-explained/">how your menstrual cycle and ovulation work</a> is key to grasping why these numbers differ.</p>
+
+          <h3>Why "Due Date" Is Really an Estimate</h3>
+          <p>It is important to understand that a "due date" is actually an estimated due date (EDD). According to research published in <a href="https://pubmed.ncbi.nlm.nih.gov/23922246/" target="_blank" rel="noopener noreferrer" class="external-link">Human Reproduction (2013)</a>, only about 4-5% of babies are born on their exact due date. Most babies are born within a two-week window around the due date, and this is considered normal and healthy. The due date is best thought of as the middle of a "due window" rather than a precise prediction.</p>
+        </section>
+
+        <!-- Section 2 -->
+        <section id="ovulation-vs-lmp" class="content-section">
+          <h2>Ovulation Date vs. LMP Method</h2>
+
+          <p>The traditional LMP method works well for women with regular 28-day cycles who ovulate on day 14. However, many women do not fit this pattern, which can lead to due date inaccuracies. Research from the <a href="https://www.nhs.uk/pregnancy/finding-out/due-date-calculator/" target="_blank" rel="noopener noreferrer" class="external-link">NHS</a> confirms that cycle length variation is extremely common.</p>
+
+          <h3>Problems with the LMP Method</h3>
+          <p>The LMP method can be inaccurate for several reasons:</p>
+          <ul>
+            <li><strong>Irregular cycle lengths:</strong> Women with cycles shorter than 28 days ovulate earlier, while those with longer cycles ovulate later</li>
+            <li><strong>Variable follicular phase:</strong> Even with regular cycles, the time from period to ovulation can vary</li>
+            <li><strong>Uncertain LMP date:</strong> Some women do not remember their exact last period date</li>
+            <li><strong>Irregular bleeding:</strong> Spotting or breakthrough bleeding can be confused with menstruation</li>
+            <li><strong>Conception while breastfeeding:</strong> Cycles may be irregular or absent before conception</li>
+          </ul>
+
+          <h3>Advantages of Ovulation Dating</h3>
+          <p>If you tracked your ovulation using <a href="/blog/opk-ovulation-predictor-kits/">OPKs</a>, <a href="/blog/basal-body-temperature-ovulation/">BBT charting</a>, or fertility monitors, you have more precise information about when conception likely occurred:</p>
+          <ul>
+            <li>Removes guesswork about when you actually ovulated</li>
+            <li>Accounts for your individual cycle length</li>
+            <li>More accurate for women with <a href="/blog/irregular-periods-and-ovulation/">irregular cycles</a></li>
+            <li>Better starting point for pregnancy dating</li>
+          </ul>
+
+          <h3>Comparison Example</h3>
+          <p>Consider a woman with a 35-day cycle whose last period started January 1:</p>
+
+          <div class="table-responsive">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>Method</th>
+                  <th>Calculation</th>
+                  <th>Estimated Due Date</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>LMP Method (280 days)</td>
+                  <td>Jan 1 + 280 days</td>
+                  <td>October 8</td>
+                </tr>
+                <tr>
+                  <td>Ovulation Method (actual ovulation Jan 21)</td>
+                  <td>Jan 21 + 266 days</td>
+                  <td>October 14</td>
+                </tr>
+                <tr>
+                  <td>Difference</td>
+                  <td>--</td>
+                  <td>6 days later</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <p>In this example, the LMP method would predict the due date 6 days too early because it assumes ovulation on day 14, when the woman actually ovulated on day 21. This difference matters for monitoring pregnancy progress and determining whether intervention might be needed for a "late" baby.</p>
+
+          <div class="summary-box">
+            <div class="summary-title">Key Takeaway: LMP vs. Ovulation Dating</div>
+            <ul>
+              <li>The LMP method assumes a standard 28-day cycle with ovulation on day 14</li>
+              <li>For women with cycles longer or shorter than 28 days, the LMP method introduces error proportional to the deviation</li>
+              <li>Ovulation-based dating removes follicular phase variability, giving a more individualized estimate</li>
+              <li>A 6-day error can lead to unnecessary inductions or missed post-term monitoring</li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- Section 3 -->
+        <section id="calculating-from-ovulation" class="content-section">
+          <h2>Calculating Your Due Date from Ovulation</h2>
+
+          <p>Calculating your due date from your ovulation date is straightforward. Here is how to do it:</p>
+
+          <h3>The Formula</h3>
+          <div class="formula-box" style="background: var(--gray-900); padding: 1.5rem; border-radius: var(--radius-lg); margin: 1.5rem 0; text-align: center;">
+            <div style="font-family: var(--font-mono); font-size: 1.125rem; color: var(--primary-light);">
+              Due Date = Ovulation Date + 266 days (38 weeks)
+            </div>
+          </div>
+
+          <h3>Step-by-Step Calculation</h3>
+          <ol>
+            <li><strong>Identify your ovulation date:</strong> This is the date you got a positive OPK, observed <a href="/blog/signs-of-ovulation/">peak fertility signs</a>, or detected a <a href="/blog/basal-body-temperature-ovulation/">BBT rise</a></li>
+            <li><strong>Add 38 weeks (266 days):</strong> Count forward from your ovulation date</li>
+            <li><strong>Note the result:</strong> This is your estimated due date</li>
+          </ol>
+
+          <h3>Quick Due Date Lookup by Ovulation Date</h3>
+          <p>Use this monthly reference table to quickly find your estimated due date. Find your ovulation month and the closest date:</p>
+
+          <div class="table-responsive">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>Ovulation Month</th>
+                  <th>Ovulation Date (1st)</th>
+                  <th>Due Date (1st)</th>
+                  <th>Ovulation Date (15th)</th>
+                  <th>Due Date (15th)</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>January</td>
+                  <td>Jan 1</td>
+                  <td>Sep 24</td>
+                  <td>Jan 15</td>
+                  <td>Oct 8</td>
+                </tr>
+                <tr>
+                  <td>February</td>
+                  <td>Feb 1</td>
+                  <td>Oct 25</td>
+                  <td>Feb 15</td>
+                  <td>Nov 8</td>
+                </tr>
+                <tr>
+                  <td>March</td>
+                  <td>Mar 1</td>
+                  <td>Nov 22</td>
+                  <td>Mar 15</td>
+                  <td>Dec 6</td>
+                </tr>
+                <tr>
+                  <td>April</td>
+                  <td>Apr 1</td>
+                  <td>Dec 23</td>
+                  <td>Apr 15</td>
+                  <td>Jan 6</td>
+                </tr>
+                <tr>
+                  <td>May</td>
+                  <td>May 1</td>
+                  <td>Jan 22</td>
+                  <td>May 15</td>
+                  <td>Feb 5</td>
+                </tr>
+                <tr>
+                  <td>June</td>
+                  <td>Jun 1</td>
+                  <td>Feb 22</td>
+                  <td>Jun 15</td>
+                  <td>Mar 8</td>
+                </tr>
+                <tr>
+                  <td>July</td>
+                  <td>Jul 1</td>
+                  <td>Mar 24</td>
+                  <td>Jul 15</td>
+                  <td>Apr 7</td>
+                </tr>
+                <tr>
+                  <td>August</td>
+                  <td>Aug 1</td>
+                  <td>Apr 24</td>
+                  <td>Aug 15</td>
+                  <td>May 8</td>
+                </tr>
+                <tr>
+                  <td>September</td>
+                  <td>Sep 1</td>
+                  <td>May 25</td>
+                  <td>Sep 15</td>
+                  <td>Jun 8</td>
+                </tr>
+                <tr>
+                  <td>October</td>
+                  <td>Oct 1</td>
+                  <td>Jun 24</td>
+                  <td>Oct 15</td>
+                  <td>Jul 8</td>
+                </tr>
+                <tr>
+                  <td>November</td>
+                  <td>Nov 1</td>
+                  <td>Jul 25</td>
+                  <td>Nov 15</td>
+                  <td>Aug 8</td>
+                </tr>
+                <tr>
+                  <td>December</td>
+                  <td>Dec 1</td>
+                  <td>Aug 24</td>
+                  <td>Dec 15</td>
+                  <td>Sep 7</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h3>Using Our Calculator</h3>
+          <p>Our <a href="/">ovulation calculator</a> automatically calculates your estimated due date when you enter your cycle information. It shows the due date that would result if conception occurred during that cycle, giving you this valuable information before you even conceive.</p>
+        </section>
+
+        <!-- NEW Section 4: Why Ovulation-Based Due Dates Are More Accurate -->
+        <section id="why-ovulation-more-accurate" class="content-section">
+          <h2>Why Ovulation-Based Due Dates Are More Accurate</h2>
+
+          <p>A growing body of research supports that dating pregnancy from ovulation or early ultrasound is more accurate than using the LMP alone. Understanding why requires a closer look at the biology of the menstrual cycle and what happens after conception.</p>
+
+          <h3>The LMP Assumption Is Fundamentally Flawed</h3>
+          <p>The traditional LMP method, codified in <strong>Naegele's Rule</strong>, was developed in 1812 and rests on the assumption that every woman has a 28-day cycle with ovulation on day 14. According to a large-scale study published in <a href="https://pubmed.ncbi.nlm.nih.gov/31002094/" target="_blank" rel="noopener noreferrer" class="external-link">Nature Human Behaviour</a>, only about 13% of women have a textbook 28-day cycle. The remaining 87% have cycles that range from 21 to 35 days or more, making the day-14-ovulation assumption unreliable for the majority of women.</p>
+
+          <h3>Variable Follicular Phase vs. Consistent Luteal Phase</h3>
+          <p>The menstrual cycle has two main phases:</p>
+          <ul>
+            <li><strong>Follicular phase</strong> (from period to ovulation): Highly variable, ranging from 10 to 21+ days depending on stress, illness, travel, weight changes, age, and hormonal factors</li>
+            <li><strong>Luteal phase</strong> (from ovulation to next period): Relatively consistent at 12-16 days for most women, with a typical length of 14 days</li>
+          </ul>
+          <p>When you know your actual ovulation date, the follicular phase variability is already accounted for. Similarly, the time from conception to birth is fairly consistent at around 266 days, which is why ovulation-based dating is inherently more reliable. Learn more about the <a href="/blog/how-long-after-ovulation-is-period/">luteal phase and its role</a> in your cycle.</p>
+
+          <h3>Studies Showing Ovulation Dating Accuracy</h3>
+          <p>Research strongly supports ovulation-based dating:</p>
+          <ul>
+            <li>A landmark 2013 study in <a href="https://pubmed.ncbi.nlm.nih.gov/23922246/" target="_blank" rel="noopener noreferrer" class="external-link">Human Reproduction</a> found that the average pregnancy length from ovulation is 268 days (38 weeks + 2 days), with a standard deviation of about 8-9 days -- far less variable than LMP-based estimates</li>
+            <li>Women with longer cycles had longer pregnancies when measured from LMP, but <strong>not</strong> when measured from ovulation, confirming the follicular phase is the source of error</li>
+            <li>A study of 15,000 pregnancies published in <a href="https://pubmed.ncbi.nlm.nih.gov/8915088/" target="_blank" rel="noopener noreferrer" class="external-link">Ultrasound in Obstetrics &amp; Gynecology</a> found that ovulation dating correlates well with early ultrasound dating</li>
+          </ul>
+
+          <h3>When Ultrasound Confirms or Adjusts Ovulation-Based Dates</h3>
+          <p>According to <a href="https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2017/05/methods-for-estimating-the-due-date" target="_blank" rel="noopener noreferrer" class="external-link">ACOG guidelines</a>, a first-trimester ultrasound (performed between 8-13 weeks) is the most accurate imaging method for confirming gestational age. Here is how it interacts with ovulation-based dates:</p>
+          <ul>
+            <li>If your ovulation-based due date and first-trimester ultrasound agree within 5 days, you can be highly confident in the accuracy</li>
+            <li>If they differ by more than 7 days, the ultrasound date is generally preferred, unless your ovulation tracking was confirmed by multiple methods (OPK + BBT shift)</li>
+            <li>After the first trimester, ultrasound accuracy for dating decreases significantly, so early confirmation matters</li>
+          </ul>
+
+          <div class="summary-box green">
+            <div class="summary-title">The Bottom Line on Accuracy</div>
+            <ul>
+              <li>Ovulation-based dating eliminates the largest source of error in due date calculation: the variable follicular phase</li>
+              <li>Studies show pregnancy length varies by ~8-9 days from ovulation, vs. ~14+ days from LMP</li>
+              <li>First-trimester ultrasound is the gold standard for confirmation, but ovulation data provides an excellent independent estimate</li>
+              <li>Sharing your ovulation tracking data with your provider leads to the most informed dating decision</li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- Section 5: Ultrasound Dating -->
+        <section id="ultrasound-dating" class="content-section">
+          <h2>Ultrasound Dating and Adjustments</h2>
+
+          <p>Even if you have a calculated due date from ovulation, your healthcare provider will likely perform an ultrasound to confirm or adjust the dating. Understanding how ultrasound dating works can help you understand if your due date is changed.</p>
+
+          <h3>First Trimester Dating Ultrasound</h3>
+          <p>The most accurate ultrasound dating occurs in the first trimester, typically between 8-12 weeks. At this stage, fetal growth is highly consistent, and crown-rump length (CRL) measurements can estimate gestational age within 3-5 days. The <a href="https://www.mayoclinic.org/tests-procedures/first-trimester-screening/about/pac-20394169" target="_blank" rel="noopener noreferrer" class="external-link">Mayo Clinic</a> notes that first-trimester ultrasound is one of the most reliable tools for pregnancy dating.</p>
+
+          <h3>When Dates Might Be Adjusted</h3>
+          <p>Your healthcare provider may adjust your due date if:</p>
+          <ul>
+            <li>The ultrasound dating differs from LMP dating by more than 5-7 days</li>
+            <li>Your cycles were irregular before pregnancy</li>
+            <li>You are uncertain about your LMP or ovulation date</li>
+            <li>The ultrasound provides a more reliable measurement</li>
+          </ul>
+
+          <h3>If You Have Ovulation Data</h3>
+          <p>If you tracked ovulation with <a href="/blog/opk-ovulation-predictor-kits/">OPKs</a> or other methods, share this information with your healthcare provider. A due date calculated from a known ovulation date often aligns closely with first-trimester ultrasound dating. If your ovulation-based due date and ultrasound dating agree, you can be more confident in the accuracy.</p>
+
+          <h3>Later Ultrasounds</h3>
+          <p>Ultrasounds performed after the first trimester are less accurate for dating because fetal growth becomes more variable. A second or third-trimester ultrasound will not typically be used to change an established due date unless there was no earlier dating.</p>
+        </section>
+
+        <!-- Section 6: Pregnancy Timeline -->
+        <section id="pregnancy-timeline" class="content-section">
+          <h2>Understanding Your Pregnancy Timeline</h2>
+
+          <p>Once you have your due date, you can map out the key milestones of your pregnancy. The journey from ovulation to delivery spans approximately 266 days, and each phase brings important developments. To better understand the earliest stages, review our guide on <a href="/blog/signs-of-ovulation/">signs of ovulation</a>.</p>
+
+          <!-- Visual Timeline -->
+          <div class="visual-timeline">
+            <div class="timeline-title">Your Journey from Ovulation to Due Date</div>
+            <div class="tl-items">
+              <div class="tl-item coral">
+                <div class="tl-dot"></div>
+                <div class="tl-label">Day 0</div>
+                <div class="tl-heading">Ovulation &amp; Fertilization</div>
+                <div class="tl-desc">The egg is released and may be fertilized within 12-24 hours. Sperm can survive up to 5 days in the reproductive tract, so conception may result from intercourse in the days before ovulation.</div>
+              </div>
+              <div class="tl-item amber">
+                <div class="tl-dot"></div>
+                <div class="tl-label">Days 6-12</div>
+                <div class="tl-heading">Implantation</div>
+                <div class="tl-desc">The fertilized egg (blastocyst) implants into the uterine lining. Some women experience light spotting or cramping. hCG production begins.</div>
+              </div>
+              <div class="tl-item coral">
+                <div class="tl-dot"></div>
+                <div class="tl-label">Days 14-16 (Week 4)</div>
+                <div class="tl-heading">First Missed Period</div>
+                <div class="tl-desc">This is typically when a woman first suspects pregnancy. Home pregnancy tests become reliable around this time. hCG levels are usually detectable.</div>
+              </div>
+              <div class="tl-item blue">
+                <div class="tl-dot"></div>
+                <div class="tl-label">Weeks 6-10 (Days 28-56)</div>
+                <div class="tl-heading">First Ultrasound</div>
+                <div class="tl-desc">The first prenatal appointment usually occurs now. A heartbeat can be detected, and crown-rump length measurement establishes gestational age with high accuracy.</div>
+              </div>
+              <div class="tl-item green">
+                <div class="tl-dot"></div>
+                <div class="tl-label">Week 24 (Day 154)</div>
+                <div class="tl-heading">Viability Milestone</div>
+                <div class="tl-desc">Babies born after this point have a chance of survival with intensive neonatal care. Survival rates improve significantly with each additional week.</div>
+              </div>
+              <div class="tl-item purple">
+                <div class="tl-dot"></div>
+                <div class="tl-label">Week 28 (Day 182)</div>
+                <div class="tl-heading">Third Trimester Begins</div>
+                <div class="tl-desc">The final phase of pregnancy begins. Prenatal visits become more frequent. The baby undergoes rapid growth and lung maturation.</div>
+              </div>
+              <div class="tl-item green">
+                <div class="tl-dot"></div>
+                <div class="tl-label">Week 37 (Day 245)</div>
+                <div class="tl-heading">Early Term</div>
+                <div class="tl-desc">Pregnancy is considered "early term." The baby's organs are nearly fully developed, though the final weeks are important for brain growth and weight gain.</div>
+              </div>
+              <div class="tl-item coral">
+                <div class="tl-dot"></div>
+                <div class="tl-label">Week 38 / Day 266</div>
+                <div class="tl-heading">Due Date (from Ovulation)</div>
+                <div class="tl-desc">Your estimated due date based on ovulation. Full term is considered 39-40 weeks gestational age. Most babies arrive within 2 weeks of this date.</div>
+              </div>
+            </div>
+          </div>
+
+          <h3>Key Pregnancy Milestones by DPO and Gestational Week</h3>
+          <p>This table maps key milestones using both days past ovulation (DPO) and standard gestational weeks, so you can track progress regardless of which dating system you use:</p>
+
+          <div class="table-responsive">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>DPO</th>
+                  <th>Gestational Week</th>
+                  <th>Milestone</th>
+                  <th>Key Developments</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>0</td>
+                  <td>~2</td>
+                  <td>Ovulation &amp; Fertilization</td>
+                  <td>Egg released, conception possible within 24 hours</td>
+                </tr>
+                <tr>
+                  <td>6-12</td>
+                  <td>~3</td>
+                  <td>Implantation</td>
+                  <td>Blastocyst implants, hCG production starts</td>
+                </tr>
+                <tr>
+                  <td>14</td>
+                  <td>4</td>
+                  <td>Missed Period</td>
+                  <td>Pregnancy tests become reliable</td>
+                </tr>
+                <tr>
+                  <td>21-28</td>
+                  <td>5-6</td>
+                  <td>Early Pregnancy</td>
+                  <td>Heartbeat may be detected, morning sickness begins</td>
+                </tr>
+                <tr>
+                  <td>42-56</td>
+                  <td>8-10</td>
+                  <td>First Prenatal Visit</td>
+                  <td>Dating ultrasound, initial blood work</td>
+                </tr>
+                <tr>
+                  <td>70-84</td>
+                  <td>12</td>
+                  <td>End of First Trimester</td>
+                  <td>Miscarriage risk drops significantly, first trimester screening</td>
+                </tr>
+                <tr>
+                  <td>112-140</td>
+                  <td>18-22</td>
+                  <td>Anatomy Scan</td>
+                  <td>Detailed ultrasound, sex determination possible</td>
+                </tr>
+                <tr>
+                  <td>154</td>
+                  <td>24</td>
+                  <td>Viability</td>
+                  <td>Survival possible with NICU care</td>
+                </tr>
+                <tr>
+                  <td>182</td>
+                  <td>28</td>
+                  <td>Third Trimester</td>
+                  <td>Frequent visits begin, glucose screening</td>
+                </tr>
+                <tr>
+                  <td>245</td>
+                  <td>37</td>
+                  <td>Early Term</td>
+                  <td>Considered safe for delivery, organs nearly mature</td>
+                </tr>
+                <tr>
+                  <td>259-266</td>
+                  <td>39-40</td>
+                  <td>Full Term / Due Date</td>
+                  <td>Optimal delivery window, brain and lungs fully mature</td>
+                </tr>
+                <tr>
+                  <td>273+</td>
+                  <td>41+</td>
+                  <td>Late/Post-Term</td>
+                  <td>Increased monitoring, induction may be discussed</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h3>Pregnancy Trimesters Overview</h3>
+
+          <div class="table-responsive">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>Trimester</th>
+                  <th>Weeks (from LMP)</th>
+                  <th>Key Developments</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>First Trimester</td>
+                  <td>Weeks 1-12</td>
+                  <td>Organ formation, heartbeat begins, morning sickness common</td>
+                </tr>
+                <tr>
+                  <td>Second Trimester</td>
+                  <td>Weeks 13-26</td>
+                  <td>Baby movement felt, anatomy scan, often "golden period" for comfort</td>
+                </tr>
+                <tr>
+                  <td>Third Trimester</td>
+                  <td>Weeks 27-40</td>
+                  <td>Rapid growth, lung maturation, preparation for birth</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <!-- NEW Section 7: Twin and Multiple Pregnancy Due Dates -->
+        <section id="twin-due-dates" class="content-section">
+          <h2>Twin and Multiple Pregnancy Due Dates</h2>
+
+          <p>If you are expecting twins or multiples, your due date calculations require special consideration. While the ovulation-to-conception timeline is the same, the expected delivery date is significantly earlier than for a singleton pregnancy. The <a href="https://www.marchofdimes.org/find-support/topics/planning-baby/being-pregnant-twins-triplets-and-other-multiples" target="_blank" rel="noopener noreferrer" class="external-link">March of Dimes</a> provides extensive guidance on multiple pregnancies.</p>
+
+          <h3>Shorter Gestation Is Normal for Multiples</h3>
+          <p>While a singleton pregnancy typically lasts 38-40 weeks from LMP (or 266 days from ovulation), twins and multiples follow a different timeline:</p>
+          <ul>
+            <li><strong>Twins:</strong> Average delivery at 36-37 weeks gestational age (34-35 weeks from ovulation), though 37-38 weeks is the target for uncomplicated twin pregnancies</li>
+            <li><strong>Triplets:</strong> Average delivery at 32-34 weeks gestational age</li>
+            <li><strong>Quadruplets or more:</strong> Average delivery at 29-31 weeks gestational age</li>
+          </ul>
+
+          <h3>How to Calculate a Twin Due Date from Ovulation</h3>
+          <p>To estimate a twin due date from your ovulation date:</p>
+          <ol>
+            <li><strong>Standard calculation:</strong> Add 266 days to your ovulation date (this gives the standard singleton due date)</li>
+            <li><strong>Twin adjustment:</strong> Subtract 2-3 weeks from the singleton due date to get the expected twin delivery window (approximately 245-252 days from ovulation)</li>
+            <li><strong>Discuss with your provider:</strong> Your doctor will set a more precise target based on the type of twins (monochorionic vs. dichorionic) and your individual risk factors</li>
+          </ol>
+
+          <div class="info-banner">
+            <p><strong>Important:</strong> The type of twin pregnancy matters significantly for due date planning. Monochorionic twins (sharing a placenta) are typically delivered by 36-37 weeks, while dichorionic twins (separate placentas) may safely go to 37-38 weeks. Your provider will monitor you closely to determine the optimal delivery timing.</p>
+          </div>
+
+          <h3>Increased Monitoring for Multiple Pregnancies</h3>
+          <p>Multiple pregnancies require more frequent monitoring than singletons. According to <a href="https://www.acog.org/womens-health/faqs/multiple-pregnancy" target="_blank" rel="noopener noreferrer" class="external-link">ACOG guidelines on multiple pregnancy</a>, expect:</p>
+          <ul>
+            <li>More frequent ultrasounds (every 2-4 weeks in the third trimester)</li>
+            <li>Closer monitoring of fetal growth to check for twin-to-twin transfusion syndrome (TTTS) in monochorionic twins</li>
+            <li>Earlier and more frequent non-stress tests</li>
+            <li>Discussion of delivery plan by 32-34 weeks</li>
+          </ul>
+
+          <h3>Preterm Considerations</h3>
+          <p>Approximately 60% of twins and nearly all higher-order multiples are born preterm (before 37 weeks). This is not necessarily a complication -- it is an expected part of multiple pregnancy. However, your healthcare team will work to help you reach the optimal gestational age while monitoring for signs of preterm labor, preeclampsia, and growth discordance. The <a href="https://www.whattoexpect.com/pregnancy/twins-and-multiples/" target="_blank" rel="noopener noreferrer" class="external-link">What to Expect</a> resource offers practical guidance for families expecting multiples.</p>
+        </section>
+
+        <!-- NEW Section 8: Pregnancy Test Accuracy by DPO -->
+        <section id="pregnancy-test-by-dpo" class="content-section">
+          <h2>Pregnancy Test Accuracy by Days Past Ovulation (DPO)</h2>
+
+          <p>One of the most practical benefits of knowing your ovulation date is understanding when a pregnancy test will be accurate. Because home pregnancy tests detect human chorionic gonadotropin (hCG), and hCG production begins at implantation (6-12 DPO), the accuracy of testing depends heavily on how many days past ovulation you are.</p>
+
+          <h3>When hCG Becomes Detectable</h3>
+          <p>After the fertilized egg implants (typically 6-10 days after ovulation), the placental cells begin producing hCG. According to research reviewed by <a href="https://www.mayoclinic.org/tests-procedures/home-pregnancy-tests/in-depth/home-pregnancy-tests/art-20047940" target="_blank" rel="noopener noreferrer" class="external-link">Mayo Clinic</a>, hCG levels roughly double every 48-72 hours in early pregnancy. However, blood hCG levels vary enormously between individuals at the same DPO:</p>
+          <ul>
+            <li><strong>8 DPO:</strong> hCG may be 5-50 mIU/mL in some women, but many have no detectable hCG yet</li>
+            <li><strong>10 DPO:</strong> hCG typically 10-100 mIU/mL, approaching the detection threshold of sensitive tests</li>
+            <li><strong>12 DPO:</strong> hCG typically 25-250 mIU/mL, most sensitive tests can detect it</li>
+            <li><strong>14 DPO:</strong> hCG typically 50-500 mIU/mL, virtually all home tests will be positive if pregnant</li>
+          </ul>
+
+          <h3>Pregnancy Test Accuracy by DPO</h3>
+          <p>The following chart shows approximate detection rates for a standard home pregnancy test (sensitivity of 25 mIU/mL) by days past ovulation:</p>
+
+          <!-- CSS Bar Chart: Pregnancy Test Accuracy by DPO -->
+          <div class="css-bar-chart">
+            <div class="chart-title">Home Pregnancy Test Detection Rate by DPO</div>
+            <div class="chart-bar">
+              <span class="bar-label">8 DPO</span>
+              <div class="bar-track"><div class="bar-fill coral" style="width: 10%"></div></div>
+              <span class="bar-value">~10%</span>
+            </div>
+            <div class="chart-bar">
+              <span class="bar-label">9 DPO</span>
+              <div class="bar-track"><div class="bar-fill coral" style="width: 25%"></div></div>
+              <span class="bar-value">~25%</span>
+            </div>
+            <div class="chart-bar">
+              <span class="bar-label">10 DPO</span>
+              <div class="bar-track"><div class="bar-fill amber" style="width: 50%"></div></div>
+              <span class="bar-value">~50%</span>
+            </div>
+            <div class="chart-bar">
+              <span class="bar-label">11 DPO</span>
+              <div class="bar-track"><div class="bar-fill amber" style="width: 70%"></div></div>
+              <span class="bar-value">~70%</span>
+            </div>
+            <div class="chart-bar">
+              <span class="bar-label">12 DPO</span>
+              <div class="bar-track"><div class="bar-fill green" style="width: 90%"></div></div>
+              <span class="bar-value">~90%</span>
+            </div>
+            <div class="chart-bar">
+              <span class="bar-label">13 DPO</span>
+              <div class="bar-track"><div class="bar-fill green" style="width: 95%"></div></div>
+              <span class="bar-value">~95%</span>
+            </div>
+            <div class="chart-bar">
+              <span class="bar-label">14 DPO</span>
+              <div class="bar-track"><div class="bar-fill blue" style="width: 99%"></div></div>
+              <span class="bar-value">~99%</span>
+            </div>
+            <div class="chart-source">Based on aggregated clinical data; individual results vary by implantation timing and test sensitivity</div>
+          </div>
+
+          <h3>Test Sensitivity Comparison</h3>
+          <p>Not all pregnancy tests are created equal. The detection threshold (measured in mIU/mL of hCG) varies between brands:</p>
+          <div class="table-responsive">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>Test Type</th>
+                  <th>Sensitivity (mIU/mL)</th>
+                  <th>Earliest Reliable DPO</th>
+                  <th>Notes</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Early Result (e.g., First Response)</td>
+                  <td>6.3 mIU/mL</td>
+                  <td>9-10 DPO</td>
+                  <td>Most sensitive home test available</td>
+                </tr>
+                <tr>
+                  <td>Standard Home Test</td>
+                  <td>25 mIU/mL</td>
+                  <td>12-13 DPO</td>
+                  <td>Most common sensitivity level</td>
+                </tr>
+                <tr>
+                  <td>Digital Test</td>
+                  <td>25-50 mIU/mL</td>
+                  <td>13-14 DPO</td>
+                  <td>Clear "Pregnant/Not Pregnant" display</td>
+                </tr>
+                <tr>
+                  <td>Dollar Store / Basic Test</td>
+                  <td>25-50 mIU/mL</td>
+                  <td>13-14 DPO</td>
+                  <td>Same accuracy as expensive tests at correct DPO</td>
+                </tr>
+                <tr>
+                  <td>Blood Test (Quantitative hCG)</td>
+                  <td>1-2 mIU/mL</td>
+                  <td>8-9 DPO</td>
+                  <td>Most sensitive; ordered by healthcare provider</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h3>Early Testing: Pros and Cons</h3>
+          <p>Many women who have been tracking ovulation are eager to test early. Here are the tradeoffs to consider:</p>
+
+          <div class="comparison-card">
+            <div class="comparison-card-item">
+              <h3 style="color: #166534;">Pros of Early Testing</h3>
+              <ul>
+                <li>Earlier confirmation allows you to begin prenatal vitamins and lifestyle adjustments sooner</li>
+                <li>Can detect ectopic pregnancy symptoms earlier when paired with hCG monitoring</li>
+                <li>Reduces anxiety for those actively trying to conceive</li>
+              </ul>
+            </div>
+            <div class="comparison-card-item">
+              <h3 style="color: #b91c1c;">Cons of Early Testing</h3>
+              <ul>
+                <li>Higher risk of false negatives before 12 DPO, leading to disappointment</li>
+                <li>May detect chemical pregnancies (very early miscarriages) that would otherwise go unnoticed</li>
+                <li>Can increase anxiety from faint or ambiguous results</li>
+              </ul>
+            </div>
+          </div>
+
+          <h3>Understanding False Negatives</h3>
+          <p>A negative pregnancy test before 14 DPO does not definitively mean you are not pregnant. False negatives occur primarily because:</p>
+          <ul>
+            <li><strong>Late implantation:</strong> If the embryo implants on day 10-12 instead of day 6-8, hCG production starts later</li>
+            <li><strong>Slow hCG rise:</strong> Some normal pregnancies have slower initial hCG doubling times</li>
+            <li><strong>Dilute urine:</strong> Testing later in the day or after drinking a lot of fluids reduces hCG concentration</li>
+            <li><strong>Test sensitivity:</strong> Less sensitive tests may not detect low hCG levels</li>
+          </ul>
+          <p>For the most reliable result, the <a href="https://www.nhs.uk/pregnancy/trying-for-a-baby/doing-a-pregnancy-test/" target="_blank" rel="noopener noreferrer" class="external-link">NHS recommends</a> waiting until the day of your expected period (approximately 14 DPO) and using first morning urine.</p>
+
+          <div class="summary-box blue">
+            <div class="summary-title">Best Practices for Pregnancy Testing by DPO</div>
+            <ul>
+              <li>Wait until at least 12 DPO for reliable results with standard tests</li>
+              <li>Use first morning urine for the highest hCG concentration</li>
+              <li>If testing early (9-11 DPO), use an early-detection test with 6.3 mIU/mL sensitivity</li>
+              <li>A negative result before 14 DPO should be re-tested in 2-3 days</li>
+              <li>Any positive result, even a faint line, should be followed up with your healthcare provider</li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- Section 9: When Babies Actually Arrive -->
+        <section id="when-babies-arrive" class="content-section">
+          <h2>When Do Babies Actually Arrive?</h2>
+
+          <p>Your due date is an estimate, not a deadline. Understanding the normal range of delivery times can help set realistic expectations.</p>
+
+          <h3>Statistical Delivery Timing</h3>
+          <p>Research shows that for singleton pregnancies:</p>
+          <ul>
+            <li>Only 4-5% of babies are born on their exact due date</li>
+            <li>About 80% are born within 2 weeks of the due date (38-42 weeks)</li>
+            <li>First-time mothers tend to deliver slightly later than mothers who have given birth before</li>
+            <li>Male babies tend to be born slightly later than female babies on average</li>
+          </ul>
+
+          <h3>Term Pregnancy Categories</h3>
+          <p>Medical professionals classify term pregnancies as:</p>
+          <ul>
+            <li><strong>Early term:</strong> 37 weeks 0 days to 38 weeks 6 days</li>
+            <li><strong>Full term:</strong> 39 weeks 0 days to 40 weeks 6 days</li>
+            <li><strong>Late term:</strong> 41 weeks 0 days to 41 weeks 6 days</li>
+            <li><strong>Post-term:</strong> 42 weeks 0 days and beyond</li>
+          </ul>
+          <p>The optimal time for delivery is during the "full term" period (39-40 weeks), when fetal development is complete but risks associated with post-term pregnancy have not increased. For more information, <a href="https://www.whattoexpect.com/pregnancy/week-by-week/week-40.aspx" target="_blank" rel="noopener noreferrer" class="external-link">What to Expect</a> offers a detailed week-by-week guide.</p>
+
+          <h3>Factors That Influence Delivery Timing</h3>
+          <p>Several factors can affect when labor naturally begins:</p>
+          <ul>
+            <li><strong>First pregnancy vs. subsequent:</strong> First babies often arrive later</li>
+            <li><strong>Previous pregnancy history:</strong> Women tend to follow similar patterns</li>
+            <li><strong>Genetics:</strong> Family history of early or late babies</li>
+            <li><strong>Maternal health conditions:</strong> Some conditions prompt earlier delivery</li>
+            <li><strong>Multiple pregnancy:</strong> Twins and multiples typically arrive earlier (see our <a href="#twin-due-dates">twin due dates section</a> above)</li>
+          </ul>
+          <p>If you are interested in understanding what happens in the days leading up to birth, particularly regarding hormonal changes, our guide on <a href="/blog/how-many-days-after-period-do-you-ovulate/">ovulation timing and cycle hormones</a> provides useful context on how hormones drive reproductive events.</p>
+        </section>
+
+        <!-- Section: Ovulation-Based vs. LMP-Based Due Dates -->
+        <section id="ovulation-vs-lmp-accuracy" class="content-section">
+          <h2>Ovulation-Based vs. LMP-Based Due Dates: Which Is More Accurate?</h2>
+
+          <p>One of the most common questions from women who track their cycles is whether their ovulation-based due date or their doctor's LMP-based due date is more reliable. The answer depends on several factors, but research consistently shows that ovulation-based dating eliminates the single largest source of error in due date prediction: the variable length of the follicular phase.</p>
+
+          <p>To understand why, consider that the LMP method assumes every woman ovulates on day 14 of a 28-day cycle. According to a study of over 600,000 cycles published in <a href="https://pubmed.ncbi.nlm.nih.gov/31002094/" target="_blank" rel="noopener noreferrer" class="external-link">npj Digital Medicine</a>, only about 13% of women have a textbook 28-day cycle. For the remaining 87%, the LMP method introduces a systematic error proportional to how far their actual ovulation day deviates from day 14. Ovulation dating, by contrast, starts from the known conception timeframe and adds 266 days -- bypassing the follicular phase entirely.</p>
+
+          <h3>Side-by-Side Comparison</h3>
+          <div class="table-responsive">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>Factor</th>
+                  <th>Ovulation-Based Dating</th>
+                  <th>LMP-Based Dating</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>Formula</strong></td>
+                  <td>Ovulation date + 266 days</td>
+                  <td>LMP + 280 days (Naegele's Rule)</td>
+                </tr>
+                <tr>
+                  <td><strong>Accuracy (typical error)</strong></td>
+                  <td>&plusmn; 8-9 days (1 SD)</td>
+                  <td>&plusmn; 14-21 days for irregular cycles</td>
+                </tr>
+                <tr>
+                  <td><strong>Assumes standard cycle?</strong></td>
+                  <td>No -- uses actual ovulation date</td>
+                  <td>Yes -- assumes 28-day cycle, ovulation on day 14</td>
+                </tr>
+                <tr>
+                  <td><strong>Affected by irregular cycles?</strong></td>
+                  <td>No -- follicular phase variability is eliminated</td>
+                  <td>Yes -- longer/shorter cycles shift the estimate</td>
+                </tr>
+                <tr>
+                  <td><strong>Requires tracking?</strong></td>
+                  <td>Yes -- OPKs, BBT, or fertility monitor needed</td>
+                  <td>No -- only needs the date of last period</td>
+                </tr>
+                <tr>
+                  <td><strong>Agreement with 1st trimester ultrasound</strong></td>
+                  <td>Typically within 1-3 days</td>
+                  <td>Within 5-7 days for regular cycles; may differ more for irregular cycles</td>
+                </tr>
+                <tr>
+                  <td><strong>Best for</strong></td>
+                  <td>Women who tracked ovulation; irregular cycles; cycle lengths &ne; 28 days</td>
+                  <td>Women with regular 28-day cycles; no ovulation data available</td>
+                </tr>
+                <tr>
+                  <td><strong>Clinical acceptance</strong></td>
+                  <td>Accepted when supported by reliable tracking data</td>
+                  <td>Universal standard; used as default at first prenatal visit</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h3>Real-World Impact of the Difference</h3>
+          <p>The practical consequences of an inaccurate due date can be significant:</p>
+          <ul>
+            <li><strong>Unnecessary induction:</strong> If the LMP method dates your pregnancy as overdue when it is actually on time (because you ovulated later than day 14), you may face pressure for an induction that is not yet medically indicated</li>
+            <li><strong>Missed post-term monitoring:</strong> Conversely, if you ovulated earlier than day 14, the LMP method may date your pregnancy as younger than it really is, potentially delaying important monitoring</li>
+            <li><strong>Screening test timing:</strong> Prenatal screening tests are time-sensitive. Accurate dating ensures they are performed at the correct gestational age for reliable results</li>
+            <li><strong>Viability decisions:</strong> In cases of very early or very preterm delivery, even a few days of gestational age difference can affect clinical management</li>
+          </ul>
+
+          <p>If you tracked your ovulation using <a href="/blog/opk-ovulation-predictor-kits/">OPKs</a> or <a href="/blog/basal-body-temperature-ovulation/">BBT charting</a>, always share this information with your healthcare provider. Combined with a first-trimester ultrasound, ovulation data provides the most comprehensive picture for establishing an accurate due date. For a detailed comparison of all due date calculation methods, see our guide on <a href="/blog/due-date-calculation-methods/">how due dates are calculated</a>.</p>
+
+          <div class="summary-box green">
+            <div class="summary-title">The Verdict</div>
+            <ul>
+              <li>Ovulation-based dating is more accurate for women who reliably tracked ovulation</li>
+              <li>LMP dating is adequate for women with consistent 28-day cycles</li>
+              <li>First-trimester ultrasound is the best confirmation method regardless of which calculation you start with</li>
+              <li>Sharing all available data (LMP, ovulation date, cycle length) with your provider leads to the most accurate dating</li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- Section: Week-by-Week Pregnancy Reference -->
+        <section id="week-by-week-reference" class="content-section">
+          <h2>Week-by-Week Pregnancy Reference</h2>
+
+          <p>Once you have established your due date from ovulation, you can track your baby's development through key milestone weeks. The following reference table covers the most significant developmental stages from week 4 through week 40, including baby size comparisons, major developments, and common symptoms you may experience. For a complete understanding of the <a href="/blog/menstrual-cycle-and-ovulation-explained/">menstrual cycle</a> that preceded this journey, see our detailed guide.</p>
+
+          <div class="table-responsive">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>Week</th>
+                  <th>Baby Size</th>
+                  <th>Key Development</th>
+                  <th>Common Symptoms</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>Week 4</strong></td>
+                  <td>Poppy seed (~1 mm)</td>
+                  <td>Implantation complete. Amniotic sac and yolk sac forming. hCG production begins, triggering a positive pregnancy test.</td>
+                  <td>Missed period. Possible light spotting (implantation bleeding). Mild cramping. Breast tenderness beginning.</td>
+                </tr>
+                <tr>
+                  <td><strong>Week 6</strong></td>
+                  <td>Sweet pea (~4-5 mm)</td>
+                  <td>Heart begins beating (~110 bpm). Neural tube closing. Arm and leg buds appearing. Early brain development.</td>
+                  <td>Morning sickness may begin. Fatigue increases. Frequent urination. Heightened sense of smell. Mood swings.</td>
+                </tr>
+                <tr>
+                  <td><strong>Week 8</strong></td>
+                  <td>Raspberry (~1.6 cm)</td>
+                  <td>All major organs are forming. Fingers and toes beginning to develop. Facial features taking shape. Movement begins (not yet felt).</td>
+                  <td>Nausea often peaks. Food aversions. Bloating. Visible veins on breasts. Constipation may start.</td>
+                </tr>
+                <tr>
+                  <td><strong>Week 12</strong></td>
+                  <td>Lime (~5.4 cm)</td>
+                  <td>End of first trimester. Miscarriage risk drops significantly. Reflexes developing. Vocal cords forming. Sex organs developing.</td>
+                  <td>Nausea often begins improving. Energy returning. Visible baby bump in some women. Reduced urinary frequency.</td>
+                </tr>
+                <tr>
+                  <td><strong>Week 16</strong></td>
+                  <td>Avocado (~11.6 cm)</td>
+                  <td>Sex may be visible on ultrasound. Bones hardening. Baby can make facial expressions. Hearing developing.</td>
+                  <td>"Golden period" begins. Less nausea. Increased appetite. Round ligament pain. Possible nasal congestion.</td>
+                </tr>
+                <tr>
+                  <td><strong>Week 20</strong></td>
+                  <td>Banana (~25 cm head to toe)</td>
+                  <td>Halfway point. Anatomy scan performed. Vernix (waxy coating) covers skin. Movements (quickening) felt by most mothers.</td>
+                  <td>Increased energy. Feeling baby move (flutters, then kicks). Leg cramps. Skin changes (linea nigra). Mild swelling.</td>
+                </tr>
+                <tr>
+                  <td><strong>Week 24</strong></td>
+                  <td>Ear of corn (~30 cm, ~600g)</td>
+                  <td>Viability milestone. Lungs producing surfactant. Brain growing rapidly. Taste buds functioning. Regular sleep/wake cycles.</td>
+                  <td>Braxton Hicks contractions may begin. Back pain. Glucose screening test. Linea nigra darkening. Swelling in feet.</td>
+                </tr>
+                <tr>
+                  <td><strong>Week 28</strong></td>
+                  <td>Large eggplant (~37 cm, ~1 kg)</td>
+                  <td>Third trimester begins. Eyes can open and close. Baby can dream (REM sleep). Rapid brain development continues.</td>
+                  <td>Increased fatigue returns. Shortness of breath. Heartburn. Frequent urination resumes. Trouble sleeping.</td>
+                </tr>
+                <tr>
+                  <td><strong>Week 32</strong></td>
+                  <td>Squash (~42 cm, ~1.7 kg)</td>
+                  <td>Baby practices breathing movements. Toenails and fingernails fully formed. Fat layers building. Bones fully developed but soft.</td>
+                  <td>Braxton Hicks more frequent. Pelvic pressure. Leaking colostrum. Difficulty finding comfortable sleep positions.</td>
+                </tr>
+                <tr>
+                  <td><strong>Week 36</strong></td>
+                  <td>Papaya (~47 cm, ~2.6 kg)</td>
+                  <td>Lungs nearly mature. Baby "drops" (lightening) into pelvis in some women. Immune system developing. Gaining ~200g per week.</td>
+                  <td>Lightning crotch (sharp pelvic pain). Nesting instinct. Easier breathing if baby has dropped. Increased pelvic pressure.</td>
+                </tr>
+                <tr>
+                  <td><strong>Week 39</strong></td>
+                  <td>Small watermelon (~50 cm, ~3.2 kg)</td>
+                  <td>Full term begins. Brain and lungs fully mature. Baby continues gaining fat. Antibodies transferring from mother. Ready for birth.</td>
+                  <td>Cervical changes (effacement, dilation). Mucus plug may release. Nesting intensifies. Irregular contractions. Insomnia.</td>
+                </tr>
+                <tr>
+                  <td><strong>Week 40</strong></td>
+                  <td>Small watermelon (~51 cm, ~3.4 kg)</td>
+                  <td>Estimated due date. Average birth weight 3.0-3.6 kg (6.6-7.9 lbs). All organ systems mature and functioning.</td>
+                  <td>Possible membrane sweep offered. Increased monitoring. Stronger Braxton Hicks. Early labor signs (bloody show, water breaking).</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <p>Baby sizes are approximate averages and can vary significantly between healthy pregnancies. For week-by-week tracking with detailed images and advice, <a href="https://www.whattoexpect.com/pregnancy/week-by-week/" target="_blank" rel="noopener noreferrer" class="external-link">What to Expect</a> and <a href="https://www.mayoclinic.org/healthy-lifestyle/pregnancy-week-by-week/in-depth/prenatal-care/art-20045302" target="_blank" rel="noopener noreferrer" class="external-link">Mayo Clinic</a> offer excellent companion resources. If you are in the early weeks and want to understand the ovulation and conception process that brought you here, review our guide on <a href="/blog/signs-of-ovulation/">signs of ovulation</a>.</p>
+        </section>
+
+        <!-- Section: Early Pregnancy Signs by Week -->
+        <section id="early-pregnancy-signs" class="content-section">
+          <h2>Early Pregnancy Signs by Week</h2>
+
+          <p>When you know your ovulation date, you have the advantage of being able to match early pregnancy symptoms to your exact timeline. Many women who track ovulation begin symptom-spotting in the days and weeks following ovulation. The following reference table describes the most common early pregnancy signs, when they typically appear relative to ovulation, how common they are, and important notes to keep in mind.</p>
+
+          <p>It is important to remember that early pregnancy symptoms overlap significantly with premenstrual symptoms. A positive <a href="/blog/opk-ovulation-predictor-kits/">pregnancy test</a> is the only reliable way to confirm pregnancy. For more on understanding your cycle and early signs, see our article on <a href="/blog/how-long-after-ovulation-is-period/">how long after ovulation your period arrives</a>.</p>
+
+          <div class="table-responsive">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>Sign</th>
+                  <th>When It Appears</th>
+                  <th>How Common</th>
+                  <th>Notes</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>Missed Period</strong></td>
+                  <td>14 DPO (day of expected period)</td>
+                  <td>Very common (most reliable early sign)</td>
+                  <td>The most recognized sign. If your cycle is regular and you are tracking ovulation, a missed period at 14 DPO is a strong indicator. However, some women experience light bleeding that can be confused with a period.</td>
+                </tr>
+                <tr>
+                  <td><strong>Nausea / Morning Sickness</strong></td>
+                  <td>Typically 4-6 weeks gestational age (2-4 weeks after ovulation)</td>
+                  <td>~70-80% of pregnant women</td>
+                  <td>Despite the name, it can occur at any time of day. Usually peaks around weeks 8-10 and improves by weeks 12-14. Triggered by rising hCG and estrogen levels. Severe cases (hyperemesis gravidarum) affect ~1-3%.</td>
+                </tr>
+                <tr>
+                  <td><strong>Breast Tenderness / Swelling</strong></td>
+                  <td>7-14 DPO (as early as 1 week after ovulation)</td>
+                  <td>Very common (~75% of women)</td>
+                  <td>Often one of the earliest symptoms. Caused by rising progesterone and hCG. Can feel similar to premenstrual breast tenderness but is often more pronounced and persistent. Nipples may darken.</td>
+                </tr>
+                <tr>
+                  <td><strong>Fatigue / Exhaustion</strong></td>
+                  <td>7-14 DPO (first trimester especially)</td>
+                  <td>Very common (~90% of women in first trimester)</td>
+                  <td>Caused primarily by rapidly rising progesterone levels. Often described as an overwhelming tiredness unlike normal fatigue. Typically improves in the second trimester and returns in the third.</td>
+                </tr>
+                <tr>
+                  <td><strong>Frequent Urination</strong></td>
+                  <td>6-8 weeks gestational age (4-6 weeks after ovulation)</td>
+                  <td>Common (~60% in first trimester)</td>
+                  <td>Caused by increased blood volume, higher kidney filtration rate, and hCG levels. Later in pregnancy, the growing uterus pressing on the bladder also contributes. Usually decreases in mid-pregnancy, then returns.</td>
+                </tr>
+                <tr>
+                  <td><strong>Implantation Bleeding / Spotting</strong></td>
+                  <td>6-12 DPO</td>
+                  <td>Less common (~25-30% of pregnancies)</td>
+                  <td>Light spotting or pink/brown discharge occurring when the embryo implants into the uterine lining. Typically lighter and shorter than a normal period. Can be mistaken for an early or light period.</td>
+                </tr>
+                <tr>
+                  <td><strong>Mood Swings</strong></td>
+                  <td>4-6 weeks gestational age onward</td>
+                  <td>Common (~50-70%)</td>
+                  <td>Driven by hormonal changes (estrogen, progesterone, hCG). Can include irritability, tearfulness, or anxiety. Similar to PMS mood changes but may be more intense.</td>
+                </tr>
+                <tr>
+                  <td><strong>Food Aversions / Cravings</strong></td>
+                  <td>5-8 weeks gestational age (3-6 weeks after ovulation)</td>
+                  <td>Common (~60% aversions; ~50% cravings)</td>
+                  <td>Strong aversions to foods you normally enjoy (especially protein, coffee, strong smells). Cravings may be for specific foods. Thought to be related to heightened sense of smell and hCG levels.</td>
+                </tr>
+                <tr>
+                  <td><strong>Heightened Sense of Smell</strong></td>
+                  <td>5-6 weeks gestational age</td>
+                  <td>Common (~65%)</td>
+                  <td>Often linked to nausea triggers. Smells that were previously neutral may become overwhelming. One of the more distinctive early pregnancy symptoms compared to PMS.</td>
+                </tr>
+                <tr>
+                  <td><strong>Mild Cramping</strong></td>
+                  <td>6-12 DPO (implantation) and intermittently in first trimester</td>
+                  <td>Common (~30-50%)</td>
+                  <td>Light, period-like cramping is normal as the uterus begins to grow. Implantation cramping (6-12 DPO) is typically mild and brief. Severe or persistent cramping should be evaluated by a healthcare provider.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <p><strong>DPO</strong> = Days Past Ovulation. Gestational age = approximately DPO + 14 days (since gestational age counts from LMP, which is ~2 weeks before ovulation).</p>
+
+          <p>If you suspect you may be pregnant based on these symptoms, the most reliable next step is to take a home pregnancy test. For best results, wait until at least 12-14 DPO and use first morning urine. See our section on <a href="#pregnancy-test-by-dpo">pregnancy test accuracy by DPO</a> above for detailed guidance on testing timing. For more information on early pregnancy symptoms, the <a href="https://www.nhs.uk/pregnancy/trying-for-a-baby/signs-and-symptoms-of-pregnancy/" target="_blank" rel="noopener noreferrer" class="external-link">NHS</a> and <a href="https://www.mayoclinic.org/healthy-lifestyle/getting-pregnant/in-depth/symptoms-of-pregnancy/art-20043853" target="_blank" rel="noopener noreferrer" class="external-link">Mayo Clinic</a> provide comprehensive medical resources.</p>
+
+          <div class="summary-box purple">
+            <div class="summary-title">Early Symptom Tracking Tips</div>
+            <ul>
+              <li>Many early pregnancy symptoms overlap with PMS -- a positive test is the only confirmation</li>
+              <li>Symptoms vary enormously between women and between pregnancies in the same woman</li>
+              <li>The absence of symptoms in early weeks does not indicate a problem</li>
+              <li>Severe symptoms (heavy bleeding, intense pain, persistent vomiting) should be evaluated promptly</li>
+              <li>Tracking symptoms alongside your ovulation data can help your provider assess your timeline</li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- Due Date Accuracy by Calculation Method -->
+        <section id="due-date-accuracy-methods" class="content-section">
+          <h2>Due Date Accuracy by Calculation Method</h2>
+
+          <p>Not all due date calculation methods are created equal. The accuracy of your estimated due date depends significantly on the method used and the quality of the input data. According to the <a href="https://www.nice.org.uk/guidance/cg62" target="_blank" rel="noopener noreferrer" class="external-link">NICE (National Institute for Health and Care Excellence) antenatal care guidelines</a>, first-trimester ultrasound is the gold standard for pregnancy dating when it conflicts with LMP-based calculations. However, when ovulation tracking data is available, it can rival ultrasound accuracy. The chart below compares the accuracy of the three main due date calculation methods.</p>
+
+          <div class="css-bar-chart">
+            <div class="css-bar-item">
+              <div class="css-bar-label">LMP Method (28-day cycle)</div>
+              <div class="css-bar-track"><div class="css-bar-fill amber" style="width: 60%;"></div></div>
+              <span>+/- 2-3 weeks</span>
+            </div>
+            <div class="css-bar-item">
+              <div class="css-bar-label">LMP Adjusted for Cycle Length</div>
+              <div class="css-bar-track"><div class="css-bar-fill blue" style="width: 72%;"></div></div>
+              <span>+/- 10-14 days</span>
+            </div>
+            <div class="css-bar-item">
+              <div class="css-bar-label">Confirmed Ovulation Date</div>
+              <div class="css-bar-track"><div class="css-bar-fill green" style="width: 90%;"></div></div>
+              <span>+/- 7-10 days</span>
+            </div>
+            <div class="css-bar-item">
+              <div class="css-bar-label">1st Trimester Ultrasound (6-9 wk)</div>
+              <div class="css-bar-track"><div class="css-bar-fill coral" style="width: 95%;"></div></div>
+              <span>+/- 5-7 days</span>
+            </div>
+            <div class="css-bar-item">
+              <div class="css-bar-label">IVF Transfer Date</div>
+              <div class="css-bar-track"><div class="css-bar-fill purple" style="width: 98%;"></div></div>
+              <span>+/- 1-3 days</span>
+            </div>
+          </div>
+
+          <p>As demonstrated by research cited by the <a href="https://www.marchofdimes.org/find-support/topics/planning-baby/calculating-your-due-date" target="_blank" rel="noopener noreferrer" class="external-link">March of Dimes</a>, the standard LMP method assumes ovulation on day 14 of a 28-day cycle -- an assumption that applies to only about 10-15% of women. For women with longer cycles (32-35 days), the LMP method can overestimate gestational age by nearly a week, potentially leading to unnecessary interventions. A confirmed ovulation date from <a href="/blog/opk-ovulation-predictor-kits/">OPK testing</a> combined with a <a href="/blog/basal-body-temperature-ovulation/">BBT shift</a> eliminates the primary source of this error -- the variable length of the follicular phase.</p>
+
+          <div class="table-responsive">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>Method</th>
+                  <th>Data Required</th>
+                  <th>Accuracy Window</th>
+                  <th>Best For</th>
+                  <th>Limitations</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>Standard LMP (Naegele's Rule)</strong></td>
+                  <td>First day of last period</td>
+                  <td>+/- 2-3 weeks</td>
+                  <td>Women with regular 28-day cycles</td>
+                  <td>Assumes day-14 ovulation; poor for irregular cycles</td>
+                </tr>
+                <tr>
+                  <td><strong>Adjusted LMP</strong></td>
+                  <td>LMP + average cycle length</td>
+                  <td>+/- 10-14 days</td>
+                  <td>Women who know their typical cycle length</td>
+                  <td>Still estimates ovulation; does not account for cycle-to-cycle variation</td>
+                </tr>
+                <tr>
+                  <td><strong>Ovulation-based dating</strong></td>
+                  <td>Confirmed ovulation date (OPK + BBT)</td>
+                  <td>+/- 7-10 days</td>
+                  <td>Women who tracked ovulation with OPKs/BBT</td>
+                  <td>Requires prospective tracking; not available for unplanned pregnancies</td>
+                </tr>
+                <tr>
+                  <td><strong>First-trimester ultrasound</strong></td>
+                  <td>Crown-rump length at 6-9 weeks</td>
+                  <td>+/- 5-7 days</td>
+                  <td>All women (ACOG recommended)</td>
+                  <td>Requires early prenatal visit; slight measurement variability</td>
+                </tr>
+                <tr>
+                  <td><strong>IVF transfer date</strong></td>
+                  <td>Exact embryo transfer date + embryo age</td>
+                  <td>+/- 1-3 days</td>
+                  <td>IVF/ICSI pregnancies</td>
+                  <td>Only applicable to assisted reproduction</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <p>For a detailed comparison of all these methods with worked examples, see our dedicated guide on <a href="/blog/due-date-calculation-methods/">due date calculation methods compared</a>. If you tracked your ovulation, use our <a href="/">ovulation calculator</a> to get the most personalized estimate possible.</p>
+        </section>
+
+        <!-- What Happens If Your Due Date Is Wrong -->
+        <section id="wrong-due-date-consequences" class="content-section">
+          <h2>What Happens If Your Due Date Is Wrong</h2>
+
+          <p>An inaccurate due date is more than an inconvenience -- it can have real clinical consequences. According to <a href="https://www.hopkinsmedicine.org/health/conditions-and-diseases/due-date-calculator" target="_blank" rel="noopener noreferrer" class="external-link">Johns Hopkins Medicine</a>, inaccurate pregnancy dating is one of the leading causes of unnecessary medical interventions during pregnancy. When a due date is significantly off, it can trigger a cascade of clinical decisions based on incorrect assumptions about gestational age.</p>
+
+          <div class="info-banner">
+            <strong>Why accuracy matters:</strong> The American College of Obstetricians and Gynecologists (ACOG) states that accurate pregnancy dating is "one of the most important aspects of prenatal care" because it directly affects decisions about genetic screening timing, fetal viability assessments, labor induction, and post-term pregnancy management. An error of even 7-10 days can shift clinical decision-making thresholds.
+          </div>
+
+          <div class="table-responsive">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>Scenario</th>
+                  <th>Due Date Too Early (baby appears "late")</th>
+                  <th>Due Date Too Late (baby appears "early")</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>Labor induction</strong></td>
+                  <td>Unnecessary induction before baby is truly post-term; higher C-section risk</td>
+                  <td>May miss true post-term status, delaying needed intervention</td>
+                </tr>
+                <tr>
+                  <td><strong>Prenatal screening timing</strong></td>
+                  <td>First-trimester screening done outside optimal window (11-13 weeks)</td>
+                  <td>Screening may be mistimed, producing less accurate results</td>
+                </tr>
+                <tr>
+                  <td><strong>Growth monitoring</strong></td>
+                  <td>Baby appears large for gestational age (macrosomia concern)</td>
+                  <td>Baby appears small for gestational age (IUGR concern)</td>
+                </tr>
+                <tr>
+                  <td><strong>Fetal viability decisions</strong></td>
+                  <td>In preterm situations, may overestimate lung maturity</td>
+                  <td>May underestimate gestational age, affecting care decisions</td>
+                </tr>
+                <tr>
+                  <td><strong>Maternal anxiety</strong></td>
+                  <td>"Overdue" stress and pressure to induce when baby is on time</td>
+                  <td>False reassurance that there is more time when baby may arrive sooner</td>
+                </tr>
+                <tr>
+                  <td><strong>Maternity leave planning</strong></td>
+                  <td>May start leave too early or too late based on incorrect timeline</td>
+                  <td>Practical planning disrupted by unexpected timing</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <p>The <a href="https://americanpregnancy.org/healthy-pregnancy/pregnancy-health-wellness/calculating-conception/" target="_blank" rel="noopener noreferrer" class="external-link">American Pregnancy Association</a> recommends that women who tracked their ovulation share this data with their healthcare provider at the first prenatal visit. If your ovulation-based due date differs from the LMP-based estimate by more than 5-7 days, discuss this discrepancy so the provider can determine the most accurate dating. A first-trimester ultrasound can help reconcile any differences. Understanding <a href="/blog/menstrual-cycle-and-ovulation-explained/">how your menstrual cycle works</a> and the variability of the <a href="/blog/menstrual-cycle-phases-explained/">follicular phase</a> helps explain why LMP-based dates are often imprecise for women with non-standard cycle lengths.</p>
+        </section>
+
+        <!-- Pregnancy Milestones Week by Week -->
+        <section id="pregnancy-milestones" class="content-section">
+          <h2>Pregnancy Milestones Week by Week</h2>
+
+          <p>Once you have your estimated due date, it can be helpful to understand what to expect at each stage of pregnancy. The table below provides an expanded reference of key milestones from week 4 (when most women first discover they are pregnant) through week 40 (your due date). Gestational age is measured from the first day of your last menstrual period, so "week 4" is approximately 2 weeks after ovulation/conception. For the full context of how these weeks are counted, see our explanation of <a href="#why-ovulation-more-accurate">why ovulation dating is more accurate</a> and our guide on <a href="/blog/how-long-after-ovulation-is-period/">the relationship between ovulation and your period</a>.</p>
+
+          <div class="table-responsive">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>Gestational Week</th>
+                  <th>Weeks Past Ovulation</th>
+                  <th>Baby Size</th>
+                  <th>Key Developments</th>
+                  <th>Common Symptoms</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Week 4</td>
+                  <td>~2 weeks</td>
+                  <td>Poppy seed (0.04 in)</td>
+                  <td>Implantation; hCG production begins</td>
+                  <td>Possible implantation bleeding; missed period</td>
+                </tr>
+                <tr>
+                  <td>Week 5</td>
+                  <td>~3 weeks</td>
+                  <td>Sesame seed (0.05 in)</td>
+                  <td>Neural tube forming; heart begins to beat</td>
+                  <td>Fatigue; breast tenderness; positive pregnancy test</td>
+                </tr>
+                <tr>
+                  <td>Week 6</td>
+                  <td>~4 weeks</td>
+                  <td>Lentil (0.08 in)</td>
+                  <td>Heartbeat detectable on ultrasound; facial features forming</td>
+                  <td>Nausea begins; frequent urination</td>
+                </tr>
+                <tr>
+                  <td>Week 8</td>
+                  <td>~6 weeks</td>
+                  <td>Raspberry (0.6 in)</td>
+                  <td>All major organs forming; fingers and toes developing</td>
+                  <td>Morning sickness peaks; first prenatal visit</td>
+                </tr>
+                <tr>
+                  <td>Week 10</td>
+                  <td>~8 weeks</td>
+                  <td>Kumquat (1.2 in)</td>
+                  <td>Embryo becomes a fetus; vital organs functioning</td>
+                  <td>Nausea may begin to ease; visible weight changes minimal</td>
+                </tr>
+                <tr>
+                  <td>Week 12</td>
+                  <td>~10 weeks</td>
+                  <td>Lime (2.1 in)</td>
+                  <td>Reflexes developing; sex may be identifiable; first-trimester screening</td>
+                  <td>Nausea improving; energy may return; "pregnancy glow"</td>
+                </tr>
+                <tr>
+                  <td>Week 14</td>
+                  <td>~12 weeks</td>
+                  <td>Lemon (3.4 in)</td>
+                  <td>Second trimester begins; facial expressions possible</td>
+                  <td>Increased appetite; less fatigue; visible bump may begin</td>
+                </tr>
+                <tr>
+                  <td>Week 16</td>
+                  <td>~14 weeks</td>
+                  <td>Avocado (4.6 in)</td>
+                  <td>Gender identifiable on ultrasound; movement increasing</td>
+                  <td>Round ligament pain; nasal congestion; possible first flutter</td>
+                </tr>
+                <tr>
+                  <td>Week 18</td>
+                  <td>~16 weeks</td>
+                  <td>Bell pepper (5.6 in)</td>
+                  <td>Ears functioning; unique fingerprints formed</td>
+                  <td>Quickening (first fetal movement felt); anatomy scan due</td>
+                </tr>
+                <tr>
+                  <td>Week 20</td>
+                  <td>~18 weeks</td>
+                  <td>Banana (6.5 in)</td>
+                  <td>Halfway point; anatomy scan confirms development</td>
+                  <td>Visible movement; back pain may begin; skin changes</td>
+                </tr>
+                <tr>
+                  <td>Week 24</td>
+                  <td>~22 weeks</td>
+                  <td>Ear of corn (11.8 in)</td>
+                  <td>Viability milestone; lungs developing surfactant</td>
+                  <td>Glucose screening test; Braxton Hicks may start</td>
+                </tr>
+                <tr>
+                  <td>Week 28</td>
+                  <td>~26 weeks</td>
+                  <td>Eggplant (14.8 in)</td>
+                  <td>Third trimester begins; eyes open; regular sleep/wake cycles</td>
+                  <td>Increased fatigue; shortness of breath; kick counts begin</td>
+                </tr>
+                <tr>
+                  <td>Week 30</td>
+                  <td>~28 weeks</td>
+                  <td>Cabbage (15.7 in)</td>
+                  <td>Brain development accelerating; fat layers building</td>
+                  <td>Difficulty sleeping; heartburn; increased Braxton Hicks</td>
+                </tr>
+                <tr>
+                  <td>Week 32</td>
+                  <td>~30 weeks</td>
+                  <td>Squash (16.7 in)</td>
+                  <td>Bones hardening (except skull); toenails present</td>
+                  <td>Frequent urination returns; pelvic pressure</td>
+                </tr>
+                <tr>
+                  <td>Week 34</td>
+                  <td>~32 weeks</td>
+                  <td>Cantaloupe (17.7 in)</td>
+                  <td>Lungs nearly mature; central nervous system maturing</td>
+                  <td>Fatigue increases; nesting instinct may emerge</td>
+                </tr>
+                <tr>
+                  <td>Week 36</td>
+                  <td>~34 weeks</td>
+                  <td>Papaya (18.7 in)</td>
+                  <td>Baby may descend into pelvis (lightening); GBS test</td>
+                  <td>Pelvic pressure; easier breathing if baby drops; cervical checks begin</td>
+                </tr>
+                <tr>
+                  <td>Week 37</td>
+                  <td>~35 weeks</td>
+                  <td>Winter melon (19.1 in)</td>
+                  <td>Early term; lungs mature; baby gaining ~0.5 lb/week</td>
+                  <td>Increased mucus discharge; Braxton Hicks intensify</td>
+                </tr>
+                <tr>
+                  <td>Week 38</td>
+                  <td>~36 weeks</td>
+                  <td>Leek (19.6 in)</td>
+                  <td>Full term begins (if dated from ovulation, this is your due date equivalent)</td>
+                  <td>Cervical ripening; loss of mucus plug possible; nesting peak</td>
+                </tr>
+                <tr>
+                  <td>Week 39</td>
+                  <td>~37 weeks</td>
+                  <td>Watermelon (20 in)</td>
+                  <td>Full term; baby is fully developed and ready for birth</td>
+                  <td>Increased contractions; potential bloody show; awaiting labor signs</td>
+                </tr>
+                <tr>
+                  <td>Week 40</td>
+                  <td>~38 weeks</td>
+                  <td>Pumpkin (20.2 in, ~7.5 lbs)</td>
+                  <td>Due date; baby is considered full term and complete</td>
+                  <td>Labor may begin; post-date monitoring discussed if no labor signs</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <p>Remember that only about 5% of babies arrive on their exact due date. Most births occur between weeks 38 and 42, and this is considered perfectly normal. Your healthcare provider will monitor you closely if pregnancy extends beyond 41 weeks. For more about what to expect in the earliest weeks -- including when to take a pregnancy test based on days past ovulation -- see our guide on <a href="/blog/signs-of-ovulation/">ovulation signs</a> and the <a href="#pregnancy-test-by-dpo">pregnancy test accuracy by DPO</a> section above.</p>
+        </section>
+
+        <!-- Related Reading -->
+        <section class="content-section">
+          <h2>Related Reading</h2>
+          <p>Explore all of our guides on pregnancy dating, ovulation, and fertility:</p>
+          <ul>
+            <li><a href="/">Ovulation Calculator</a> -- Free tool to predict your fertile window and ovulation date</li>
+            <li><a href="/about/">About Ovulation Calculator</a> -- Learn about our mission and methodology</li>
+            <li><a href="/blog/due-date-calculation-methods/">Due Date Calculation Methods Compared</a></li>
+            <li><a href="/blog/fertile-window-when-to-conceive/">Fertile Window: When Are You Most Likely to Conceive?</a></li>
+            <li><a href="/blog/signs-of-ovulation/">Signs of Ovulation: How to Know When You're Fertile</a></li>
+            <li><a href="/blog/menstrual-cycle-and-ovulation-explained/">The Menstrual Cycle and Ovulation Explained</a></li>
+            <li><a href="/blog/how-many-days-after-period-do-you-ovulate/">How Many Days After Your Period Do You Ovulate?</a></li>
+            <li><a href="/blog/basal-body-temperature-ovulation/">Basal Body Temperature and Ovulation</a></li>
+            <li><a href="/blog/cervical-mucus-fertility/">Cervical Mucus and Fertility</a></li>
+            <li><a href="/blog/opk-ovulation-predictor-kits/">OPK Ovulation Predictor Kits</a></li>
+            <li><a href="/blog/irregular-periods-and-ovulation/">Irregular Periods and Ovulation</a></li>
+            <li><a href="/blog/ovulation-with-irregular-periods/">Ovulation With Irregular Periods</a></li>
+            <li><a href="/blog/menstrual-cycle-phases-explained/">The Four Phases of Your Menstrual Cycle Explained</a></li>
+            <li><a href="/blog/how-long-after-ovulation-is-period/">How Long After Ovulation Is Your Period?</a></li>
+            <li><a href="/blog/clearblue-ovulation-calculator-guide/">Clearblue Ovulation Calculator Guide</a></li>
+            <li><a href="/blog/best-fertility-tracker-apps/">Best Fertility Tracker Apps</a></li>
+            <li><a href="/blog/when-to-see-fertility-specialist/">When to See a Fertility Specialist</a></li>
+          </ul>
+        </section>
+
+        <!-- CTA Box -->
+        <div class="cta-box">
+          <h3>Calculate Your Due Date</h3>
+          <p>Use our free ovulation calculator to find your ovulation date and estimated due date based on your cycle.</p>
+          <a href="/" class="cta-btn">Try the Calculator</a>
+        </div>
+
+        <!-- FAQ Section -->
+        <section id="faq" class="content-section">
+          <h2>Frequently Asked Questions</h2>
+
+          <div class="faq-list">
+            <div class="faq-item">
+              <button class="faq-question">
+                Is my due date from ovulation more accurate than from my last period?
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+              </button>
+              <div class="faq-answer">
+                <p>Generally, yes. If you tracked ovulation accurately (using OPKs, BBT, or a fertility monitor), dating from ovulation eliminates the variability of the follicular phase. This is especially true if your cycles are longer or shorter than 28 days. However, first-trimester ultrasound dating is also very accurate and may be used to confirm or adjust your due date.</p>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button class="faq-question">
+                Why does my doctor use my last period instead of ovulation date?
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+              </button>
+              <div class="faq-answer">
+                <p>Most women do not track ovulation, so LMP is the most universally available starting point. Medical conventions and pregnancy wheel calculators are designed around LMP dating. However, if you share your ovulation tracking data, your provider can use it to inform the due date estimate. First-trimester ultrasound often reconciles any differences.</p>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button class="faq-question">
+                What if my ovulation date and ultrasound give different due dates?
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+              </button>
+              <div class="faq-answer">
+                <p>Small differences (a few days) are normal and usually not concerning. First-trimester ultrasounds are accurate to within about 5-7 days. If the difference is larger, consider whether your ovulation tracking was definitive (a positive OPK is more reliable than cervical mucus observations). Your provider will recommend which date to use based on all available information.</p>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button class="faq-question">
+                Can I still calculate a due date if I'm not sure of my exact ovulation date?
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+              </button>
+              <div class="faq-answer">
+                <p>Yes. Even if you do not know your exact ovulation date, you can estimate it from your cycle length (ovulation typically occurs 14 days before your next period would start). Our <a href="/">ovulation calculator</a> does this calculation automatically. However, for the most accurate dating, a first-trimester ultrasound is recommended.</p>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button class="faq-question">
+                Does the due date change as pregnancy progresses?
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+              </button>
+              <div class="faq-answer">
+                <p>Once a due date is established (usually by first-trimester ultrasound or early pregnancy), it typically should not change. Later ultrasounds may show the baby measuring larger or smaller than expected, but this reflects normal variation in fetal growth rather than a different conception date. Changing the due date late in pregnancy can lead to inappropriate interventions.</p>
+              </div>
+            </div>
+
+            <!-- NEW FAQ Items -->
+            <div class="faq-item">
+              <button class="faq-question">
+                How accurate is a due date calculated from ovulation?
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+              </button>
+              <div class="faq-answer">
+                <p>A due date calculated from a confirmed ovulation date is among the most accurate methods available, typically within 1-3 days of a first-trimester ultrasound estimate. A 2013 study in <em>Human Reproduction</em> found that the average time from ovulation to birth is 268 days (38 weeks and 2 days), with a standard deviation of about 8-9 days. Only about 4-5% of babies are born on their exact due date, but roughly 70% arrive within 10 days of it.</p>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button class="faq-question">
+                What if my due date from ovulation differs from my ultrasound date?
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+              </button>
+              <div class="faq-answer">
+                <p>If the difference is 5 days or less, the dates are considered concordant, and either can be used. If the ultrasound date differs by more than 7 days in the first trimester, providers typically defer to the ultrasound. However, if you have highly reliable ovulation data (such as a confirmed positive OPK and BBT shift), discuss this with your provider. In many cases, ovulation-based and ultrasound dates will agree closely.</p>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button class="faq-question">
+                Can I calculate my due date if I don't know my ovulation date?
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+              </button>
+              <div class="faq-answer">
+                <p>Absolutely. Most women calculate their due date using the LMP method (adding 280 days to the first day of their last period). If you know your average cycle length, you can get a better estimate by adjusting for your likely ovulation day. For example, with a 32-day cycle, ovulation likely occurred around cycle day 18, not day 14. Our <a href="/">ovulation calculator</a> can help you estimate this. A first-trimester ultrasound remains the gold standard for confirming dates.</p>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button class="faq-question">
+                Why do doctors add 2 weeks to the pregnancy age?
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+              </button>
+              <div class="faq-answer">
+                <p>Gestational age is counted from the first day of your last menstrual period (LMP), which is approximately 2 weeks before ovulation and conception actually occur. This means that during "week 1" and "week 2" of pregnancy, you are not actually pregnant yet. This convention exists because the LMP is a known, easily remembered date for most women, while the exact conception date is usually unknown. So when your doctor says you are "6 weeks pregnant," the embryo is actually about 4 weeks old. Our guide on <a href="/blog/menstrual-cycle-and-ovulation-explained/">menstrual cycle and ovulation</a> explains this in more detail.</p>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button class="faq-question">
+                When should I schedule my first prenatal appointment?
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+              </button>
+              <div class="faq-answer">
+                <p>Most healthcare providers recommend scheduling your first prenatal appointment between 8 and 10 weeks of gestational age (6-8 weeks after ovulation). At this visit, your provider will confirm the pregnancy, estimate gestational age, check for a heartbeat via ultrasound, review your medical history, and begin routine blood work. If you have a high-risk pregnancy, a history of complications, or concerning symptoms like heavy bleeding or severe pain, contact your provider sooner. See our guide on <a href="/blog/when-to-see-fertility-specialist/">when to see a fertility specialist</a> for additional guidance.</p>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button class="faq-question">
+                What happens if I go past my due date?
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+              </button>
+              <div class="faq-answer">
+                <p>Going past your due date is common -- about 50% of first-time mothers deliver after their estimated due date. Pregnancies that extend beyond 41 weeks are considered late-term, and beyond 42 weeks are post-term. After 41 weeks, your provider will typically increase monitoring with non-stress tests and amniotic fluid checks, as the risk of placental insufficiency increases. Most providers recommend induction between 41 and 42 weeks. Having an accurate due date (especially one based on ovulation tracking or early ultrasound) is critical here, because induction decisions should not be based on an inaccurate LMP-derived date.</p>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button class="faq-question">
+                How do twin or multiple pregnancies affect the due date calculation?
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+              </button>
+              <div class="faq-answer">
+                <p>While the initial due date calculation is the same for twins (266 days from ovulation or 280 from LMP), twin pregnancies typically deliver earlier. The average delivery for twins is around 36-37 weeks, compared to 39-40 weeks for singletons. Many providers set a "target" delivery window of 37-38 weeks for dichorionic twins and 36-37 weeks for monochorionic twins. Your provider will discuss the specific timeline based on your type of twin pregnancy and any complications. The March of Dimes provides detailed guidance on multiple pregnancy management.</p>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button class="faq-question">
+                Can my due date be adjusted in the third trimester?
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+              </button>
+              <div class="faq-answer">
+                <p>ACOG strongly recommends against changing a well-established due date in the third trimester. Ultrasound measurements in late pregnancy have a margin of error of up to 3 weeks and reflect individual variation in fetal growth rather than differences in gestational age. A baby measuring large at 34 weeks is more likely a larger-than-average baby than a baby who is further along than estimated. Changing the due date late in pregnancy can lead to inappropriate decisions about induction or delivery timing. If your original due date was based on ovulation tracking or a first-trimester ultrasound, it should remain your official date.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Medical Disclaimer -->
+        <div class="tips-box">
+          <h3>Medical Disclaimer</h3>
+          <p>This article provides general information about due date calculations. Your healthcare provider will determine your official estimated due date based on multiple factors including your menstrual history, ovulation data (if available), and ultrasound measurements. Always follow your provider's recommendations for prenatal care and delivery planning.</p>
+        </div>
+
+        <!-- Sources -->
+        <section class="content-section">
+          <h2>Sources</h2>
+          <ul>
+            <li>American College of Obstetricians and Gynecologists. (2017). Methods for Estimating the Due Date. Committee Opinion No. 700. <a href="https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2017/05/methods-for-estimating-the-due-date" target="_blank" rel="noopener noreferrer" class="external-link">ACOG</a></li>
+            <li>Jukic, A. M., Baird, D. D., Weinberg, C. R., McConnaughey, D. R., & Wilcox, A. J. (2013). Length of human pregnancy and contributors to its natural variation. Human Reproduction, 28(10), 2848-2855. <a href="https://pubmed.ncbi.nlm.nih.gov/23922246/" target="_blank" rel="noopener noreferrer" class="external-link">PubMed</a></li>
+            <li>Mongelli, M., Wilcox, M., & Gardosi, J. (1996). Estimating the date of confinement: ultrasonographic biometry versus certain menstrual dates. American Journal of Obstetrics and Gynecology, 174(1), 278-281. <a href="https://pubmed.ncbi.nlm.nih.gov/8572023/" target="_blank" rel="noopener noreferrer" class="external-link">PubMed</a></li>
+            <li>Tunon, K., Eik-Nes, S. H., & Grottum, P. (1996). A comparison between ultrasound and a reliable last menstrual period as predictors of the day of delivery in 15,000 examinations. Ultrasound in Obstetrics and Gynecology, 8(3), 178-185. <a href="https://pubmed.ncbi.nlm.nih.gov/8915088/" target="_blank" rel="noopener noreferrer" class="external-link">PubMed</a></li>
+            <li>Bull, J. R., Rowland, S. P., Scherwitzl, E. B., et al. (2019). Real-world menstrual cycle characteristics of more than 600,000 menstrual cycles. npj Digital Medicine, 2(83). <a href="https://pubmed.ncbi.nlm.nih.gov/31002094/" target="_blank" rel="noopener noreferrer" class="external-link">PubMed</a></li>
+            <li>March of Dimes. Being pregnant with twins, triplets and other multiples. <a href="https://www.marchofdimes.org/find-support/topics/planning-baby/being-pregnant-twins-triplets-and-other-multiples" target="_blank" rel="noopener noreferrer" class="external-link">March of Dimes</a></li>
+            <li>Mayo Clinic. Home pregnancy tests: Can you trust the results? <a href="https://www.mayoclinic.org/tests-procedures/home-pregnancy-tests/in-depth/home-pregnancy-tests/art-20047940" target="_blank" rel="noopener noreferrer" class="external-link">Mayo Clinic</a></li>
+            <li>NHS. Doing a pregnancy test. <a href="https://www.nhs.uk/pregnancy/trying-for-a-baby/doing-a-pregnancy-test/" target="_blank" rel="noopener noreferrer" class="external-link">NHS UK</a></li>
+          </ul>
+        </section>
+
+      </article>
+
+      <!-- Related Articles Grid -->
+      <div class="related-articles">
+        <h2 class="related-title">Related Articles</h2>
+        <div class="related-grid">
+          <a href="/blog/due-date-calculation-methods/" class="related-card">
+            <div class="related-cat">Pregnancy</div>
+            <h3>Due Date Calculation Methods Compared</h3>
+            <p>Compare LMP, ovulation, ultrasound, and IVF methods for estimating your due date.</p>
+          </a>
+          <a href="/blog/fertile-window-when-to-conceive/" class="related-card">
+            <div class="related-cat">Fertility</div>
+            <h3>Fertile Window: When to Conceive</h3>
+            <p>Understand your fertile window and the best days to maximize your chances of conception.</p>
+          </a>
+          <a href="/blog/signs-of-ovulation/" class="related-card">
+            <div class="related-cat">Ovulation</div>
+            <h3>Signs of Ovulation</h3>
+            <p>Learn to recognize the physical signs and symptoms that indicate you are ovulating.</p>
+          </a>
+          <a href="/blog/basal-body-temperature-ovulation/" class="related-card">
+            <div class="related-cat">Tracking</div>
+            <h3>BBT Tracking for Ovulation</h3>
+            <p>Master basal body temperature charting to confirm ovulation and improve cycle awareness.</p>
+          </a>
+          <a href="/blog/how-long-after-ovulation-is-period/" class="related-card">
+            <div class="related-cat">Cycle Science</div>
+            <h3>How Long After Ovulation Is Your Period?</h3>
+            <p>Understand the luteal phase and what it means for pregnancy timing and menstrual regularity.</p>
+          </a>
+          <a href="/blog/menstrual-cycle-and-ovulation-explained/" class="related-card">
+            <div class="related-cat">Education</div>
+            <h3>Menstrual Cycle and Ovulation Explained</h3>
+            <p>A complete guide to the menstrual cycle phases and how ovulation fits into the bigger picture.</p>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="/" class="logo">
+            <svg class="logo-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"/>
+              <path d="M12 8c-2.2 0-4 1.8-4 4s1.8 4 4 4 4-1.8 4-4"/>
+              <circle cx="12" cy="12" r="2" fill="currentColor"/>
+            </svg>
+            <span>Ovulation Calculator</span>
+          </a>
+          <p>Free ovulation calculator to find your fertile window and best days to conceive.</p>
+        </div>
+
+        <div class="footer-nav">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="/">Calculator</a></li>
+            <li><a href="/blog/">Articles</a></li>
+            <li><a href="/about/">About</a></li>
+            <li><a href="/contact/">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-nav">
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="/blog/how-many-days-after-period-do-you-ovulate/">When Do You Ovulate?</a></li>
+            <li><a href="/blog/fertile-window-when-to-conceive/">Fertile Window Guide</a></li>
+            <li><a href="/blog/signs-of-ovulation/">Signs of Ovulation</a></li>
+            <li><a href="/blog/basal-body-temperature-ovulation/">BBT Tracking</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-nav">
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="/privacy/">Privacy Policy</a></li>
+            <li><a href="/terms/">Terms of Service</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025-2026 Calculate Ovulation. All rights reserved.</p>
+        <p class="footer-disclaimer">This calculator provides estimates for informational purposes only and should not be used as a method of birth control or to diagnose fertility issues. Always consult a healthcare provider for medical advice.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/assets/js/calculator.js"></script>
+</body>
+</html>
